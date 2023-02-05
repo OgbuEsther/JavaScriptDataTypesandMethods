@@ -89,7 +89,16 @@ const givenArray6 = [
     { "name": "Mumbai", "population": 18400000 }
     ]
 
-const filteredArray2 = givenArray6.filter(el => el.population >= 500000000)
+const filteredArray2 = givenArray6.filter(el => el.population >= 5000000)
 
 console.log(filteredArray2)
+
+
+
+//REDUCE METHOD 
+
+/**The reduce() method creates a new array, executing the callback passed into it on every element, and outputs a single value. It does something on every element and keeps a record of the calculations in an accumulator variable and when no more elements are left, it returns the accumulator. */
+const givenArray7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const reducedArray = givenArray7.reduce((accumulator, currentValue) => accumulator + currentValue)
+console.log(reducedArray)
 
