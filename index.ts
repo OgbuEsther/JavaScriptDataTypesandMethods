@@ -127,3 +127,23 @@ The callback function passed to the forEach function can accept the currentItem,
 //example
 let arrs = [1,2,3,4,5,6,7,8]
 arrs.forEach((val) => console.log(val))
+
+
+/**Array.prototype.some and Array.prototype.every
+The some method tests whether at least one element of the array complies with the given test in the callback, and returns true or false.
+
+The callback function passed to the some function can accept the currentItem, index, array. */
+
+//example :Given two arrays of numbers, test whether each of the arrays have at least one number that is > 5, and log the result to the console.
+
+const givenArray11 = [1,2,3,4,5 ,6]
+const givenArray12 = [1,2 , 3]
+const some = givenArray11.some((el) => el >=5)
+console.log(some)
+const someArray = givenArray12.some((el) => el >= 5)
+console.log(someArray)
+
+/** The every method is pretty similar to the some method, but it tests whether all the elements of the array complies with the given test in the callback, and returns true or false.
+
+The callback function passed to the every function can accept the currentItem, index, array.*/
+
