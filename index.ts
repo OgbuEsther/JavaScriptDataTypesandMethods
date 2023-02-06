@@ -153,3 +153,14 @@ const every = givenArray11.every((el) => el >=5)
 console.log(every)
 const everyArray = givenArray12.every((el) => el >= 5)
 console.log(everyArray)
+
+
+/**Array.prototype.find
+The find method returns the first element of the array that satisfies the Boolean test in the callback. If no element passes the Boolean test, undefined is returned.
+
+The callback passed to the find function can accept any of the three arguments: item, index, array. */
+
+const givenArray15 = [{name: "a", value: 1}, {name: "b", value: 2}, {name: "c", value: 3}, {name: "d",value : 4}]
+
+const find = givenArray15.find((el) => el.name === "b")
+console.log(find)
