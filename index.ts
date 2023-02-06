@@ -162,5 +162,9 @@ The callback passed to the find function can accept any of the three arguments: 
 
 const givenArray15 = [{name: "a", value: 1}, {name: "b", value: 2}, {name: "c", value: 3}, {name: "d",value : 4}]
 
-const find = givenArray15.find((el) => el.name === "b")
+const find = givenArray15.find((el) => el.value === 1)
 console.log(find)
+
+const givenArray16 = [1 , 2 , 3 , 4 , 5 , 6]
+const find2 = givenArray16.find((el) => el === 3)
+console.log(find2)
