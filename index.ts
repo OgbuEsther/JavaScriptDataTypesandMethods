@@ -147,3 +147,9 @@ console.log(someArray)
 
 The callback function passed to the every function can accept the currentItem, index, array.*/
 
+const givenArray13 = [1,2,3,4,5 ,6]
+const givenArray14 = [1,2 , 3]
+const every = givenArray11.every((el) => el >=5)
+console.log(every)
+const everyArray = givenArray12.every((el) => el >= 5)
+console.log(everyArray)
