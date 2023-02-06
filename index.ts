@@ -123,3 +123,7 @@ console.log(average)
 /**The forEach method is similar to the for(let i = 0; i < array.length, i++){} syntax. It loops through the array and runs the given callback for each of the elements of the array.
 
 The callback function passed to the forEach function can accept the currentItem, index, array. */
+
+//example
+let arrs = [1,2,3,4,5,6,7,8]
+arrs.forEach((val) => console.log(val))
