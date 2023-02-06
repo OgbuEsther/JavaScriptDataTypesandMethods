@@ -102,3 +102,24 @@ const givenArray7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const reducedArray = givenArray7.reduce((accumulator, currentValue) => accumulator + currentValue)
 console.log(reducedArray)
 
+const givenArray8 = [1 ,2, 3, 4]
+const reduce = givenArray8.reduce((a , b) => a+ b)
+console.log(reduce)
+
+/**TEST1 :Given an array of numbers, find the sum of every element in the array, starting with 8, and log the result to the console */
+const givenArray9 = [1 ,2, 3,4,5,6,7,8]
+const reduced = givenArray9.reduce((acc , curr) => acc + curr , 8 )
+console.log(reduced)
+
+console.log(36 + 8)
+
+/**Given an array of numbers, find the average of them, and log it to the console. */
+const givenArray10 = [1,2,3,4,5]
+const average = givenArray10.reduce((a , b)=> a + b) / givenArray10.length
+console.log(average)
+
+
+// Array.prototype.forEach
+/**The forEach method is similar to the for(let i = 0; i < array.length, i++){} syntax. It loops through the array and runs the given callback for each of the elements of the array.
+
+The callback function passed to the forEach function can accept the currentItem, index, array. */
