@@ -31,5 +31,12 @@ console.log(parseInt("40years  ")) //output : 40
 
 
 ///the third global javascript number method is the parseFloat() Method
+/**parseFloat() parses a string and returns a number. Spaces are allowed. Only the first number is returned: */
 
+console.log(parseFloat("-20")) //output : 20
+console.log(parseFloat("years 30")) //output : NaN because the string value came before the number
+console.log(parseFloat(" 20.33 ")) //output : 20.33
+console.log(parseFloat("40years  ")) //output : 40
+
+//the parseInt() method returns a whole number while the parseFloat() method returns a number. Spaces are allowed in both cases. Only the first number is
 
