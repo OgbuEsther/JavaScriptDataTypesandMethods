@@ -1,5 +1,5 @@
 //Process
-
+import fs from "fs"
 /*It is a global object and provides information related to the program execution. You do not need to load it using require() method.
 What are the NodeJS process properties?
 Image result for process in node js
@@ -17,3 +17,4 @@ console.log(process.argv[1])
 const msg = "hello world"
 process.stdout.write(msg + "\n")
 //process.stdout.write : this help output your values .....its the same thing as doing console.log(msg)
+// fs.createReadStream(process.argv[0]).pipe(process.stdout)
