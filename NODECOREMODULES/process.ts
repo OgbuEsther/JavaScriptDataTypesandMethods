@@ -1,5 +1,6 @@
 //Process
 import fs from "fs"
+require("child_process")
 /*It is a global object and provides information related to the program execution. You do not need to load it using require() method.
 What are the NodeJS process properties?
 Image result for process in node js
@@ -22,6 +23,8 @@ process.stdout.write(msg + "\n")
 setTimeout(() => {
     process.stdout.write("i am still up and coding")
 }, 1000);
+
+
 let count = 0
 setInterval(() => {
     count++
