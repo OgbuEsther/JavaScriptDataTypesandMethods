@@ -4,8 +4,6 @@
 //return a number as a string
 
 const x = 123;
-
-
 console.log(`string value` ,(100 + 23).toString())
 console.log(x.toString());
 
