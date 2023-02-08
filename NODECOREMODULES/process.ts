@@ -18,3 +18,15 @@ const msg = "hello world"
 process.stdout.write(msg + "\n")
 //process.stdout.write : this help output your values .....its the same thing as doing console.log(msg)
 // fs.createReadStream(process.argv[0]).pipe(process.stdout)
+
+setTimeout(() => {
+    process.stdout.write("i am still up and coding")
+}, 1000);
+let count = 0
+setInterval(() => {
+    count++
+    if (count === 10){
+        process.exit()
+    }
+    process.stdout.write("i am still up and coding \n")
+}, 1000);
