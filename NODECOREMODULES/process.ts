@@ -7,4 +7,13 @@ Node. js provides the facility to get process information such as process id, ar
 
 */
 
+console.log(process.argv)
+//process.argv
+/**The process.argv property returns an array containing the command-line arguments passed when the Node.js process was launched. The first element will be execPath. See process.argv0 if access to the original value of argv[0] is needed. The second element will be the path to the JavaScript file being exec */
+console.log(process.execPath)
+console.log(process.argv[1])
 
+
+const msg = "hello world"
+process.stdout.write(msg + "\n")
+//process.stdout.write : this help output your values .....its the same thing as doing console.log(msg)
