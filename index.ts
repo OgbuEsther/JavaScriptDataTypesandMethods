@@ -97,7 +97,7 @@ const reducedArray = givenArray7.reduce(
 );
 console.log(reducedArray);
 
-const givenArray8 = [1, 2, 3, 4];
+const givenArray8 = [1, 2, 3, 4];6
 const reduce = givenArray8.reduce((a, b) => a + b);
 console.log(reduce);
 

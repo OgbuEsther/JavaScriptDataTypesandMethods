@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only ./GlobalJavascriptNumberMethods.ts",
-    "start": "ts-node-dev --respawn --transpile-only ./NODECOREMODULES/process.ts"
+    "start": "ts-node-dev --respawn --transpile-only ./NODECOREMODULES/path.ts"
   },
   "keywords": [],
   "author": "",
