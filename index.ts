@@ -1,7 +1,7 @@
 console.log(`compilig typescript`);
 
 //for loops
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i <= 100000; i++) {
   console.log(`this is a loop`, i);
 }
 
