@@ -97,7 +97,8 @@ const reducedArray = givenArray7.reduce(
 );
 console.log(reducedArray);
 
-const givenArray8 = [1, 2, 3, 4];6
+const givenArray8 = [1, 2, 3, 4];
+6;
 const reduce = givenArray8.reduce((a, b) => a + b);
 console.log(reduce);
 
@@ -165,3 +166,17 @@ console.log(find);
 const givenArray16 = [1, 2, 3, 4, 5, 6];
 const find2 = givenArray16.find((el) => el === 3);
 console.log(find2);
+
+let Student = [
+  {
+    physics: {
+      name: "ola",
+      age: 12,
+    },
+    chem: {
+      name: "ola",
+      age: 12,
+    },
+  },
+];
+console.log(Student.map((e) => e.chem.age));
