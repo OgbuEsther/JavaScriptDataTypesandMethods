@@ -47,3 +47,15 @@ console.log(zero1.charAt(-2))
 
 const test1 = "This is testing string methods"
 console.log(test1.includes("t" ,0))
+
+
+
+
+
+
+//SEARCH STRINGS METHODS 
+
+
+/*
+
+*/
